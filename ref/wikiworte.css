@@ -81,7 +81,8 @@ body {
 	box-sizing: border-box;
 	letter-spacing: 0.1em;
 	float: left;
-	width: 150px;
+	width: 50%;
+	text-align: left;
 }
 
 .tries {
@@ -93,7 +94,8 @@ body {
 }
 
 .logoextra {
-	width: 150px;
+	width: 50%;
+	text-align: right;
 	min-height: 30px;
 	max-height: 50px;
 	display: block;
@@ -548,7 +550,7 @@ input:checked+.slider:before {
 	
 	.logo {
 		padding: 14px 0px 7px 12px;
-		width: 150px;
+		width: 50%;
 		letter-spacing: 0.1em;
 	}
 	
@@ -571,7 +573,9 @@ input:checked+.slider:before {
 		margin-bottom: 0px;
 	}
 	
-	.logoextra { width: 140px; }
+	.logoextra {
+		width: 50%;
+	}
 	
 	#sharecontent {
 		padding-right: 5px;
